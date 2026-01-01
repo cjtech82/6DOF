@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "6DOF_Robot",
+			"path": "6DOF_Robot"
+		}
+	],
+	"settings": {}
+}
