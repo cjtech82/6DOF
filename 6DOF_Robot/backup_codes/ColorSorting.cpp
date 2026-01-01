@@ -108,7 +108,7 @@ void gripperCheck() {
 
 void redTask() {
   gripperCheck();
-  moveArm(88, 90, 90, 95, 110, 55);   delay(10);  //Home
+  moveArm(88, 90, 90, 95, 110, 55);   delay(20);  //Home changing this to 20
   moveArm(88, 90, 55, 95, 110, 55);   delay(10);  //Approach the object
   moveArm(88, 90, 55, 95, 110, 114);  delay(10);  //grab the object //Change the delay to 15 from 10 to make sure that object is pick up properly
   moveArm(88, 90, 90, 95, 110, 114);  delay(10);  //left the object
