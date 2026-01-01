@@ -110,7 +110,7 @@ void redTask() {
   gripperCheck();
   moveArm(88, 90, 90, 95, 110, 55);   delay(10);  //Home
   moveArm(88, 90, 55, 95, 110, 55);   delay(10);  //Approach the object
-  moveArm(88, 90, 55, 95, 110, 114);  delay(25);  //grab the object //Change the delay to 50 from 10 to make sure that object is pick up properly
+  moveArm(88, 90, 55, 95, 110, 114);  delay(15);  //grab the object //Change the delay to 15 from 10 to make sure that object is pick up properly
   moveArm(88, 90, 90, 95, 110, 114);  delay(10);  //left the object
   moveArm(163, 90, 90, 60, 110, 114);  delay(10);  //transport to red bin
   moveArm(163, 90, 50, 60, 110, 114);  delay(10);  //pre drop preparation
