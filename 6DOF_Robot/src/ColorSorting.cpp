@@ -134,7 +134,7 @@ void greenTask() {
 
 void blueTask() {
   gripperCheck();
-  moveArm(88, 90, 90, 95, 110, 55);   delay(10);  
+  moveArm(88, 90, 90, 95, 110, 55);   delay(20);  //Change the delay to 20, for a bit pause.
   moveArm(88, 90, 55, 95, 110, 55);   delay(10);  
   moveArm(88, 90, 55, 95, 110, 114);  delay(10);  
   moveArm(88, 90, 90, 95, 110, 114);  delay(10);  
