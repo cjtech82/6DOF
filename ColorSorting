@@ -121,7 +121,7 @@ void redTask() {
 
 void greenTask() {
   gripperCheck();
-  moveArm(88, 90, 90, 95, 110, 55);   delay(10);  
+  moveArm(90, 90, 90, 95, 110, 55);   delay(10);  //change from 88 to 90 for base motor
   moveArm(88, 90, 55, 95, 110, 55);   delay(10);  
   moveArm(88, 90, 55, 95, 110, 114);  delay(10);  
   moveArm(88, 90, 90, 95, 110, 114);  delay(10);  
